@@ -2,11 +2,19 @@
   "name": "zweb",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "build": "npx tsc",
-    "start": "node dist/index.js",
-    "dev": "concurrently \"npx tsc --watch\" \"nodemon -q dist/index.js\""
+    "build-web": "tsc && yarn copy-files && yarn browserify",
+    "web-conditions": "node dist/tools/web_conditions.js",
+    "copy-files": "cp -R ./src/public/* ./dist/public",
+    "browserify": "browserify ./dist/web_bundle.js  -o ./dist/public/bundle.js",
+    "run-service": "node ./dist/service.js",
+    "badTest": "cd src/cypress && cypress open --config-file ../../configs/cypress.json",
+    "just-build": "tsc",
+    "run-gui": "node ./dist/gui.js",
+    "start": "pm2 start ecosystem.config.js --env production&&pm2 monit",
+    "stop": "pm2 stop ecosystem.config.js"
   },
   "repository": {
     "type": "git",
@@ -20,11 +28,23 @@
   },
   "homepage": "https://github.com/spydmobile/zweb#readme",
   "dependencies": {
+    "browserify": "^17.0.0",
+    "chart.js": "^4.2.1",
+    "cli-spinner": "^0.2.10",
+    "config": "^3.3.9",
     "dotenv": "^16.0.3",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "fs-extra": "^11.1.0",
+    "highcharts": "^10.3.3",
+    "jsdom": "^21.1.0",
+    "mongodb": "^4.14.0",
+    "zod": "^3.20.6"
   },
   "devDependencies": {
+    "@types/cli-spinner": "^0.2.1",
+    "@types/config": "^3.3.0",
     "@types/express": "^4.17.17",
+    "@types/fs-extra": "^11.0.1",
     "@types/node": "^18.13.0",
     "concurrently": "^7.6.0",
     "nodemon": "^2.0.20",

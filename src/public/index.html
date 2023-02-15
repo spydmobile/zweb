@@ -1,0 +1,141 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GrowDash 2.0</title>
+    <script src="//cdn.jsdelivr.net/npm/pouchdb@7.2.1/dist/pouchdb.min.js"></script>
+    
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    </script>
+    <script src="//code.highcharts.com/highcharts.js"></script>
+    <script src="bundle.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+        <script
+src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
+
+</script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body class="">
+    <h2 class=" w3-text-yellow">GrowDash 2.0 - Tents</h2>
+    <div id="vox-button" class="w3-button w3-hover-grey w3-round-large w3-khaki shadow"><i
+            class="fa fa-assistive-listening-systems" style="font-size:48px;color:red"></i></div>
+    <div class="output"></div>
+    <div class="hints"></div>
+    <!-- set up a button bar using w3css buttons -->
+    <div id="newButtonBar" class="w3-padding-16 w3-bar w3-center">
+        <button id="tentButton" class="w3-hover-orange w3-bar-item" onclick="showSection('t')">Tents</button>
+        <button id="houseButton" class="w3-hover-blue w3-bar-item" onclick="showSection('h')">House</button>
+        <button id="statsButton" class="w3-hover-teal w3-bar-item" onclick="showSection('s')">Tomatoes</button>
+        <button id="statsButton" class="w3-hover-teal w3-bar-item" onclick="showSection('d')">Display</button>
+    </div>
+    <div class="w3-display-container">
+        <div id="buildSpan" class="w3-display-left w3-blue w3-padding w3-round-large">Left</div>
+        <div id="pageSpan" class="w3-display-right w3-teal w3-padding w3-round-large">Right</div>
+    </div>
+    <hr>
+
+
+
+    <div id="tentDisplay" class="w3-hide shadow w3-white">
+        <p> </p>
+        <h2>TENTS</h2>
+
+    </div>
+    <div id="houseDisplay" class="w3-hide w3-white"></div>
+    <div id="tomatoDisplay" class="w3-hide w3-white">
+
+
+
+
+    </div>
+    <div id="homeDisplay" class="w3-show w3-center w3-black w3-round-xxlarge">
+
+
+        <div id="house-container" class="w3-center">
+            <div id="upstairs" class=" w3-green w3-center w3-round-large">
+                Upstairs Garden Tent
+
+                <div id="garden-tent" class="w3-green w3-center w3-text-yellow">
+
+                    <div id="garden-tent-temp" class="my-text-yellow text-shadow w3-xxlarge w3-center w3-xlarge">0C
+                    </div>
+                    <canvas id="garden-tent-chart" width="730px" height="175px" class="w3-round-large"></canvas>
+
+                </div>
+            </div>
+            <div id="main-floor" class=" w3-blue w3-center">main-floor wood-thermostat
+                <div class="w3-xxlarge my-text-yellow	text-shadow">
+                    <span id="house-wood-thermostat-value">0C</span>
+                    <canvas id="wood-thermostat-chart" width="730px" height="175px" class="w3-round-large"></canvas>
+                </div>
+
+
+
+            </div>
+            <div id="basement" class=" w3-black w3-center w3-round-large">basement
+
+                furnace
+                <div class="w3-xxlarge my-text-yellow	text-shadow w3-center"> <span
+                        id="house-wood-plenum-temp">0C</span></div>
+                <canvas id="wood-plenum-chart" width="730px" height="175px" class="w3-round-large"></canvas>
+
+            </div>
+
+
+        </div>
+        <script>
+            // function autoRefresh() {
+            //     window.location = window.location.href;
+            // }
+            // setInterval('autoRefresh()', 1000 * 300);
+            function showSection(section) {
+                var t = document.getElementById("tentDisplay");
+                var h = document.getElementById("houseDisplay");
+                var s = document.getElementById("tomatoDisplay");
+                var d = document.getElementById("homeDisplay");
+
+                t.className = t.className.replace("w3-show", "w3-hide");
+                h.className = h.className.replace("w3-show", "w3-hide");
+                s.className = s.className.replace("w3-show", "w3-hide");
+                d.className = d.className.replace("w3-show", "w3-hide");
+                switch (section) {
+
+                    case 't':
+                        t.className = t.className.replace("w3-hide", "w3-show");
+                        break;
+                    case 'h':
+                        h.className = h.className.replace("w3-hide", "w3-show");
+                        break;
+                    case 's':
+                        s.className = s.className.replace("w3-hide", "w3-show");
+                        break;
+                    case 'd':
+                        d.className = d.className.replace("w3-hide", "w3-show");
+                        break;
+
+                    default:
+                        break;
+                }
+
+
+                // if (x.className.indexOf("w3-show") == -1) {
+                //     x.className += " w3-show";
+                // } else {
+                //     x.className = x.className.replace(" w3-show", "");
+                // }
+            }
+        </script>
+</body>
+
+</html>
