@@ -1,57 +1,5 @@
 [
   {
-    "_id": "63ece3427b16b2e341a6fdb8",
-    "uuid": "7bf945bc-3f33-4dde-b7de-69da818140fe",
-    "date": 1676469058568,
-    "nid": 15,
-    "Name": "Zooz Underdawg Tent",
-    "Motion": 0,
-    "Light": 0,
-    "Battery": 80,
-    "TempC": 25.7,
-    "RH": 11.96,
-    "Notes": "Temperature in range for veg!"
-  },
-  {
-    "_id": "63ece3427b16b2e341a6fdb9",
-    "uuid": "2cbacbf1-fcf7-474c-90b5-f8bef6ae859b",
-    "date": 1676469058589,
-    "nid": 15,
-    "Name": "Zooz Underdawg Tent",
-    "Motion": 0,
-    "Light": 0,
-    "Battery": 80,
-    "TempC": 25.7,
-    "RH": 11.96,
-    "Notes": "Temperature in range for veg!"
-  },
-  {
-    "_id": "63ece3427b16b2e341a6fdba",
-    "uuid": "88f33d35-3f12-4f4a-af28-b41f78161b63",
-    "date": 1676469058607,
-    "nid": 15,
-    "Name": "Zooz Underdawg Tent",
-    "Motion": 0,
-    "Light": 0,
-    "Battery": 80,
-    "TempC": 25.7,
-    "RH": 11.96,
-    "Notes": "Temperature in range for veg!"
-  },
-  {
-    "_id": "63ece3bf7b16b2e341a6fdbb",
-    "uuid": "2982cd83-2f67-44b0-89dd-62a8304d2a76",
-    "date": 1676469183394,
-    "nid": 4,
-    "Name": "ADC T4 (Spare)",
-    "Motion": null,
-    "Light": null,
-    "Battery": 80,
-    "TempC": 29.8,
-    "RH": null,
-    "Notes": "Temperature in range for comfort!"
-  },
-  {
     "_id": "63ece4227b16b2e341a6fdbc",
     "uuid": "9ee36947-14ba-48bc-8e4c-368271aaeab2",
     "date": 1676469282185,
@@ -6407,5 +6355,57 @@
     "TempC": 27.5,
     "RH": 10,
     "Notes": "Temperature in range for comfort!"
+  },
+  {
+    "_id": "63ee347a7b16b2e341a6ffa5",
+    "uuid": "347f598b-710d-4eef-b1f9-53c5acc49672",
+    "date": 1676555386532,
+    "nid": 11,
+    "Name": "Gardent Tent",
+    "Motion": 0,
+    "Light": 100,
+    "Battery": 100,
+    "TempC": 28.5,
+    "RH": 30.83,
+    "Notes": "Temperature in range for veg!"
+  },
+  {
+    "_id": "63ee347a7b16b2e341a6ffa6",
+    "uuid": "b593bc19-ec5a-4277-8c18-91a071dcc1a8",
+    "date": 1676555386549,
+    "nid": 11,
+    "Name": "Gardent Tent",
+    "Motion": 0,
+    "Light": 100,
+    "Battery": 100,
+    "TempC": 28.5,
+    "RH": 30.83,
+    "Notes": "Temperature in range for veg!"
+  },
+  {
+    "_id": "63ee347a7b16b2e341a6ffa7",
+    "uuid": "14e0583c-e9fb-4856-b523-288f263165ee",
+    "date": 1676555386571,
+    "nid": 11,
+    "Name": "Gardent Tent",
+    "Motion": 0,
+    "Light": 100,
+    "Battery": 100,
+    "TempC": 28.5,
+    "RH": 30.83,
+    "Notes": "Temperature in range for veg!"
+  },
+  {
+    "_id": "63ee35797b16b2e341a6ffa8",
+    "uuid": "e9f75ce1-c684-4da3-b12a-36ec99212f3f",
+    "date": 1676555641917,
+    "nid": 7,
+    "Name": "ADC T7 (Wood Plenum)",
+    "Motion": null,
+    "Light": null,
+    "Battery": 80,
+    "TempC": 44.3,
+    "RH": null,
+    "Notes": "Warning: Temp Too high for winter!"
   }
 ]
