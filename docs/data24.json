@@ -1,57 +1,5 @@
 [
   {
-    "_id": "63ed14647b16b2e341a6fdfd",
-    "uuid": "37034aa6-ad4b-47ce-9202-44db834ee0cc",
-    "date": 1676481636302,
-    "nid": 7,
-    "Name": "ADC T7 (Wood Plenum)",
-    "Motion": null,
-    "Light": null,
-    "Battery": 80,
-    "TempC": 38.8,
-    "RH": null,
-    "Notes": "Temperature in range for winter!"
-  },
-  {
-    "_id": "63ed14847b16b2e341a6fdfe",
-    "uuid": "28dcaef1-313d-4f2f-8fe6-220ff9d3670f",
-    "date": 1676481668911,
-    "nid": 16,
-    "Name": "Zooz WR Tent",
-    "Motion": 0,
-    "Light": 0,
-    "Battery": 100,
-    "TempC": 26.9,
-    "RH": 12.28,
-    "Notes": "Temperature in range for veg!"
-  },
-  {
-    "_id": "63ed14847b16b2e341a6fdff",
-    "uuid": "e72e53c8-c90c-4822-a418-554ead5deda0",
-    "date": 1676481668925,
-    "nid": 16,
-    "Name": "Zooz WR Tent",
-    "Motion": 0,
-    "Light": 0,
-    "Battery": 100,
-    "TempC": 26.9,
-    "RH": 12.28,
-    "Notes": "Temperature in range for veg!"
-  },
-  {
-    "_id": "63ed14847b16b2e341a6fe00",
-    "uuid": "6555b60a-63ce-4e9a-a7d0-6a654f39af8f",
-    "date": 1676481668940,
-    "nid": 16,
-    "Name": "Zooz WR Tent",
-    "Motion": 0,
-    "Light": 0,
-    "Battery": 100,
-    "TempC": 26.9,
-    "RH": 12.28,
-    "Notes": "Temperature in range for veg!"
-  },
-  {
     "_id": "63ed16b87b16b2e341a6fe01",
     "uuid": "3bcae537-5e75-4119-af9b-b686f3e0fd2b",
     "date": 1676482232208,
