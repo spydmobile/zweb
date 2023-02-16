@@ -1,18 +1,5 @@
 [
   {
-    "_id": "63ece9497b16b2e341a6fdc2",
-    "uuid": "f1bd7dc3-dbf9-4fbd-88c0-5713e13b475e",
-    "date": 1676470601540,
-    "nid": 5,
-    "Name": "Wood Thermostat",
-    "Motion": null,
-    "Light": null,
-    "Battery": 54,
-    "TempC": 25.8,
-    "RH": 10,
-    "Notes": "Temperature in range for comfort!"
-  },
-  {
     "_id": "63eceaa87b16b2e341a6fdc3",
     "uuid": "37482a68-927c-4cf6-9736-692ad00a88a7",
     "date": 1676470952929,
