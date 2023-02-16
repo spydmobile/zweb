@@ -1,57 +1,5 @@
 [
   {
-    "_id": "63ed22d37b16b2e341a6fe0f",
-    "uuid": "6373ddc9-649f-49b5-b29d-28f2adec51ed",
-    "date": 1676485331171,
-    "nid": 7,
-    "Name": "ADC T7 (Wood Plenum)",
-    "Motion": null,
-    "Light": null,
-    "Battery": 80,
-    "TempC": 35.3,
-    "RH": null,
-    "Notes": "Temperature in range for winter!"
-  },
-  {
-    "_id": "63ed23d87b16b2e341a6fe10",
-    "uuid": "8151cbe1-a1d6-4471-8e9e-512b9daee215",
-    "date": 1676485592218,
-    "nid": 15,
-    "Name": "Zooz Underdawg Tent",
-    "Motion": 0,
-    "Light": 0,
-    "Battery": 70,
-    "TempC": 25.7,
-    "RH": 11.57,
-    "Notes": "Temperature in range for veg!"
-  },
-  {
-    "_id": "63ed23d87b16b2e341a6fe11",
-    "uuid": "6a3ba6f1-2c65-4b7f-9182-99051560191d",
-    "date": 1676485592238,
-    "nid": 15,
-    "Name": "Zooz Underdawg Tent",
-    "Motion": 0,
-    "Light": 0,
-    "Battery": 70,
-    "TempC": 25.7,
-    "RH": 11.57,
-    "Notes": "Temperature in range for veg!"
-  },
-  {
-    "_id": "63ed23d87b16b2e341a6fe12",
-    "uuid": "4d5500a2-28a1-4cd4-b194-dedaa6fe3de2",
-    "date": 1676485592260,
-    "nid": 15,
-    "Name": "Zooz Underdawg Tent",
-    "Motion": 0,
-    "Light": 0,
-    "Battery": 70,
-    "TempC": 25.7,
-    "RH": 11.57,
-    "Notes": "Temperature in range for veg!"
-  },
-  {
     "_id": "63ed25de7b16b2e341a6fe13",
     "uuid": "0937a23f-f08c-47a0-b249-416c8d9a3ec0",
     "date": 1676486110726,
