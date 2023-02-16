@@ -1,44 +1,5 @@
 [
   {
-    "_id": "63ed5ed27b16b2e341a6fe68",
-    "uuid": "25e48d40-86bb-4cfa-ae8d-b5835db3bfec",
-    "date": 1676500690455,
-    "nid": 15,
-    "Name": "Zooz Underdawg Tent",
-    "Motion": 0,
-    "Light": 0,
-    "Battery": 70,
-    "TempC": 25.8,
-    "RH": 12.17,
-    "Notes": "Temperature in range for veg!"
-  },
-  {
-    "_id": "63ed5ed27b16b2e341a6fe69",
-    "uuid": "688d3d2e-9fd8-4f5e-a296-1bba93ef4dbf",
-    "date": 1676500690544,
-    "nid": 15,
-    "Name": "Zooz Underdawg Tent",
-    "Motion": 0,
-    "Light": 0,
-    "Battery": 70,
-    "TempC": 25.8,
-    "RH": 12.17,
-    "Notes": "Temperature in range for veg!"
-  },
-  {
-    "_id": "63ed5ed27b16b2e341a6fe6a",
-    "uuid": "b847e99a-e8a8-4cf5-a2ed-4a6ef9f8fe9e",
-    "date": 1676500690566,
-    "nid": 15,
-    "Name": "Zooz Underdawg Tent",
-    "Motion": 0,
-    "Light": 0,
-    "Battery": 70,
-    "TempC": 25.8,
-    "RH": 12.17,
-    "Notes": "Temperature in range for veg!"
-  },
-  {
     "_id": "63ed604c7b16b2e341a6fe6b",
     "uuid": "80fc1073-fa1e-4f89-93b8-e37f8159461c",
     "date": 1676501068288,
