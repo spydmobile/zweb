@@ -1,31 +1,5 @@
 [
   {
-    "_id": "63ed3bae7b16b2e341a6fe3a",
-    "uuid": "bf1e17df-c108-4a1c-bb77-b4921d088b20",
-    "date": 1676491694459,
-    "nid": 13,
-    "Name": "The Lab",
-    "Motion": 0,
-    "Light": 0,
-    "Battery": 100,
-    "TempC": 30.1,
-    "RH": 7.96,
-    "Notes": "Warning: Temp Too high for comfort!"
-  },
-  {
-    "_id": "63ed3caa7b16b2e341a6fe3b",
-    "uuid": "527eef05-ee8e-4347-b301-08ba6a3bd756",
-    "date": 1676491946954,
-    "nid": 7,
-    "Name": "ADC T7 (Wood Plenum)",
-    "Motion": null,
-    "Light": null,
-    "Battery": 80,
-    "TempC": 41.3,
-    "RH": null,
-    "Notes": "Warning: Temp Too high for winter!"
-  },
-  {
     "_id": "63ed3f417b16b2e341a6fe3c",
     "uuid": "3e95b165-7819-4af1-a8a8-ed720380452a",
     "date": 1676492609133,
