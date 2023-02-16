@@ -1,31 +1,5 @@
 [
   {
-    "_id": "63ed203f7b16b2e341a6fe0d",
-    "uuid": "03b27833-716a-4374-acd5-7493ac4df899",
-    "date": 1676484671585,
-    "nid": 5,
-    "Name": "Wood Thermostat",
-    "Motion": null,
-    "Light": null,
-    "Battery": 54,
-    "TempC": 27.4,
-    "RH": 10,
-    "Notes": "Temperature in range for comfort!"
-  },
-  {
-    "_id": "63ed20447b16b2e341a6fe0e",
-    "uuid": "6f9780d8-b1b9-4b9a-a596-084e99508411",
-    "date": 1676484676396,
-    "nid": 7,
-    "Name": "ADC T7 (Wood Plenum)",
-    "Motion": null,
-    "Light": null,
-    "Battery": 80,
-    "TempC": 35.9,
-    "RH": null,
-    "Notes": "Temperature in range for winter!"
-  },
-  {
     "_id": "63ed22d37b16b2e341a6fe0f",
     "uuid": "6373ddc9-649f-49b5-b29d-28f2adec51ed",
     "date": 1676485331171,
