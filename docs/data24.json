@@ -1,18 +1,5 @@
 [
   {
-    "_id": "63ed45127b16b2e341a6fe49",
-    "uuid": "4972fa65-a213-4f9f-9c6a-56b1f65dbda6",
-    "date": 1676494098293,
-    "nid": 7,
-    "Name": "ADC T7 (Wood Plenum)",
-    "Motion": null,
-    "Light": null,
-    "Battery": 80,
-    "TempC": 40.7,
-    "RH": null,
-    "Notes": "Warning: Temp Too high for winter!"
-  },
-  {
     "_id": "63ed47a27b16b2e341a6fe4a",
     "uuid": "f3f584dd-ef71-4eef-a377-6ab8d08e0ab8",
     "date": 1676494754086,
