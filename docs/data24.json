@@ -1,44 +1,5 @@
 [
   {
-    "_id": "63ecf2997b16b2e341a6fdd1",
-    "uuid": "54bf54c4-5646-465d-851a-ac9d8403a1b2",
-    "date": 1676472985263,
-    "nid": 7,
-    "Name": "ADC T7 (Wood Plenum)",
-    "Motion": null,
-    "Light": null,
-    "Battery": 80,
-    "TempC": 41.9,
-    "RH": null,
-    "Notes": "Warning: Temp Too high for winter!"
-  },
-  {
-    "_id": "63ecf3857b16b2e341a6fdd2",
-    "uuid": "1189e048-e4b6-40f1-b2fa-67b46c2eae33",
-    "date": 1676473221157,
-    "nid": 7,
-    "Name": "ADC T7 (Wood Plenum)",
-    "Motion": null,
-    "Light": null,
-    "Battery": 80,
-    "TempC": 42.6,
-    "RH": null,
-    "Notes": "Warning: Temp Too high for winter!"
-  },
-  {
-    "_id": "63ecf4707b16b2e341a6fdd3",
-    "uuid": "ed22f646-de87-411e-a4b7-443e08ac4f12",
-    "date": 1676473456851,
-    "nid": 7,
-    "Name": "ADC T7 (Wood Plenum)",
-    "Motion": null,
-    "Light": null,
-    "Battery": 80,
-    "TempC": 43.1,
-    "RH": null,
-    "Notes": "Warning: Temp Too high for winter!"
-  },
-  {
     "_id": "63ecf4937b16b2e341a6fdd4",
     "uuid": "53fd6982-9a57-4c6f-956a-3d81f1a6070f",
     "date": 1676473491536,
