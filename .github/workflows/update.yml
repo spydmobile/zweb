@@ -9,6 +9,10 @@ jobs:
     name: update data
     runs-on: ubuntu-latest
     steps:
+      - name: Setup timezone
+        uses: zcong1993/setup-timezone@v2.0.0
+        with: 
+          timezone: America/Yellowknife
       - name: Checkout
         uses: actions/checkout@v3.3.0
       - name: Setup NodeJS environment with a Cache
