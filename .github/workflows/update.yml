@@ -1,0 +1,36 @@
+name: Update Data
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+jobs:
+  self_update:
+    name: update data
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3.3.0
+      - name: Setup NodeJS environment with a Cache
+        uses: gacts/setup-node-with-cache@v1.0.0
+        with:
+          node-version: 18
+      - name: install deps
+        run: npm i
+      - name: do web conditions
+        env: # Or as an environment variable
+          DB_USERNAME: ${{ secrets.DB_USERNAME }}
+          DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
+          DB_HOST: ${{ secrets.DB_HOST }}
+          DB_PORT: ${{ secrets.DB_PORT }}
+          DB_COLLECTION: ${{ secrets.DB_COLLECTION }}          
+        run: npm run web-conditions
+        
+      - name: Add & Commit
+        # You may pin to the exact commit or the version.
+        # uses: EndBug/add-and-commit@61a88be553afe4206585b31aa72387c64295d08b
+        uses: EndBug/add-and-commit@v9.1.1
+        with:
+          # Arguments for the git add command
+          message: Auto commited by GITHUB actions
+      
