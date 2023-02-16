@@ -1,57 +1,5 @@
 [
   {
-    "_id": "63ecfbf57b16b2e341a6fddf",
-    "uuid": "bc64286a-1747-4c2d-a3fd-b754ce4dd40d",
-    "date": 1676475381559,
-    "nid": 5,
-    "Name": "Wood Thermostat",
-    "Motion": null,
-    "Light": null,
-    "Battery": 54,
-    "TempC": 26.9,
-    "RH": 10,
-    "Notes": "Temperature in range for comfort!"
-  },
-  {
-    "_id": "63ecfc887b16b2e341a6fde0",
-    "uuid": "01a55b68-9958-4482-84f5-78793004f058",
-    "date": 1676475528544,
-    "nid": 15,
-    "Name": "Zooz Underdawg Tent",
-    "Motion": 0,
-    "Light": 0,
-    "Battery": 80,
-    "TempC": 27.8,
-    "RH": 11.68,
-    "Notes": "Temperature in range for veg!"
-  },
-  {
-    "_id": "63ecfc887b16b2e341a6fde1",
-    "uuid": "fa900bb8-150e-42a1-93a6-62ea489471ce",
-    "date": 1676475528562,
-    "nid": 15,
-    "Name": "Zooz Underdawg Tent",
-    "Motion": 0,
-    "Light": 0,
-    "Battery": 80,
-    "TempC": 27.8,
-    "RH": 11.68,
-    "Notes": "Temperature in range for veg!"
-  },
-  {
-    "_id": "63ecfc887b16b2e341a6fde2",
-    "uuid": "caaff454-45bd-495a-8b1f-96b724509fed",
-    "date": 1676475528585,
-    "nid": 15,
-    "Name": "Zooz Underdawg Tent",
-    "Motion": 0,
-    "Light": 0,
-    "Battery": 80,
-    "TempC": 27.8,
-    "RH": 11.68,
-    "Notes": "Temperature in range for veg!"
-  },
-  {
     "_id": "63ecfefd7b16b2e341a6fde3",
     "uuid": "89ce6b30-b872-4d07-9372-afdf15a2f0e1",
     "date": 1676476157439,
