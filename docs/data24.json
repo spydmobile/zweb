@@ -1,44 +1,5 @@
 [
   {
-    "_id": "63ed31a37b16b2e341a6fe21",
-    "uuid": "ccc7d876-fb64-488b-a156-e3aabfeff701",
-    "date": 1676489123903,
-    "nid": 4,
-    "Name": "ADC T4 (Spare)",
-    "Motion": null,
-    "Light": null,
-    "Battery": 80,
-    "TempC": 29.3,
-    "RH": null,
-    "Notes": "Temperature in range for comfort!"
-  },
-  {
-    "_id": "63ed326c7b16b2e341a6fe22",
-    "uuid": "66371ccd-6dc2-4f4a-ac68-ea9455b2614d",
-    "date": 1676489324815,
-    "nid": 7,
-    "Name": "ADC T7 (Wood Plenum)",
-    "Motion": null,
-    "Light": null,
-    "Battery": 80,
-    "TempC": 34.3,
-    "RH": null,
-    "Notes": "Temperature in range for winter!"
-  },
-  {
-    "_id": "63ed32e27b16b2e341a6fe23",
-    "uuid": "fe085cea-10e8-4bb0-8506-f95fb022c21a",
-    "date": 1676489442699,
-    "nid": 7,
-    "Name": "ADC T7 (Wood Plenum)",
-    "Motion": null,
-    "Light": null,
-    "Battery": 80,
-    "TempC": 34.9,
-    "RH": null,
-    "Notes": "Temperature in range for winter!"
-  },
-  {
     "_id": "63ed33937b16b2e341a6fe24",
     "uuid": "ea4b7c39-42fb-482c-a477-8af3ec93509a",
     "date": 1676489619420,
