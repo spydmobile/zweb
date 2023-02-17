@@ -1,57 +1,5 @@
 [
   {
-    "_id": "63ee10727b16b2e341a6ff62",
-    "uuid": "dac289b0-3393-418b-bf24-47689e07a627",
-    "date": 1676546162997,
-    "nid": 7,
-    "Name": "ADC T7 (Wood Plenum)",
-    "Motion": null,
-    "Light": null,
-    "Battery": 80,
-    "TempC": 33.5,
-    "RH": null,
-    "Notes": "Temperature in range for winter!"
-  },
-  {
-    "_id": "63ee11657b16b2e341a6ff63",
-    "uuid": "4a9882e3-bb39-445c-96f1-d68dad205ab3",
-    "date": 1676546405518,
-    "nid": 7,
-    "Name": "ADC T7 (Wood Plenum)",
-    "Motion": null,
-    "Light": null,
-    "Battery": 80,
-    "TempC": 34.2,
-    "RH": null,
-    "Notes": "Temperature in range for winter!"
-  },
-  {
-    "_id": "63ee12477b16b2e341a6ff64",
-    "uuid": "1134563c-da00-459a-b33c-ecb5163890cf",
-    "date": 1676546631838,
-    "nid": 5,
-    "Name": "Wood Thermostat",
-    "Motion": null,
-    "Light": null,
-    "Battery": 54,
-    "TempC": 28,
-    "RH": 10,
-    "Notes": "Temperature in range for comfort!"
-  },
-  {
-    "_id": "63ee12517b16b2e341a6ff65",
-    "uuid": "184fe348-4e67-46aa-8926-09b7baa627fd",
-    "date": 1676546641219,
-    "nid": 7,
-    "Name": "ADC T7 (Wood Plenum)",
-    "Motion": null,
-    "Light": null,
-    "Battery": 80,
-    "TempC": 34.9,
-    "RH": null,
-    "Notes": "Temperature in range for winter!"
-  },
-  {
     "_id": "63ee130d7b16b2e341a6ff66",
     "uuid": "45d6fdde-4dd2-46d3-a02c-e3cf3e750bff",
     "date": 1676546829713,
