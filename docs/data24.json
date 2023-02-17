@@ -1,57 +1,5 @@
 [
   {
-    "_id": "63edbee57b16b2e341a6feca",
-    "uuid": "9c7528e6-b982-48a5-8221-3e93a8d751ff",
-    "date": 1676525285154,
-    "nid": 16,
-    "Name": "Zooz WR Tent",
-    "Motion": 0,
-    "Light": 0,
-    "Battery": 100,
-    "TempC": 26,
-    "RH": 12.92,
-    "Notes": "Temperature in range for veg!"
-  },
-  {
-    "_id": "63edbee57b16b2e341a6fecb",
-    "uuid": "60bb91e9-a983-4fe3-a64a-fdef001db876",
-    "date": 1676525285172,
-    "nid": 16,
-    "Name": "Zooz WR Tent",
-    "Motion": 0,
-    "Light": 0,
-    "Battery": 100,
-    "TempC": 26,
-    "RH": 12.92,
-    "Notes": "Temperature in range for veg!"
-  },
-  {
-    "_id": "63edbee57b16b2e341a6fecc",
-    "uuid": "1eb0b809-778c-4ece-b478-a6898fc43db7",
-    "date": 1676525285193,
-    "nid": 16,
-    "Name": "Zooz WR Tent",
-    "Motion": 0,
-    "Light": 0,
-    "Battery": 100,
-    "TempC": 26,
-    "RH": 12.92,
-    "Notes": "Temperature in range for veg!"
-  },
-  {
-    "_id": "63edc05b7b16b2e341a6fecd",
-    "uuid": "640e8353-d648-4345-b52f-ef03124e7fae",
-    "date": 1676525659399,
-    "nid": 4,
-    "Name": "ADC T4 (Spare)",
-    "Motion": null,
-    "Light": null,
-    "Battery": 80,
-    "TempC": 28.8,
-    "RH": null,
-    "Notes": "Temperature in range for comfort!"
-  },
-  {
     "_id": "63edc0d07b16b2e341a6fece",
     "uuid": "f8c2eedd-4735-4f19-8578-92bfa99df845",
     "date": 1676525776438,
