@@ -1,18 +1,5 @@
 [
   {
-    "_id": "63edba5b7b16b2e341a6fec8",
-    "uuid": "b416bc49-8f25-4b8e-a15f-fcdd5d68d529",
-    "date": 1676524123168,
-    "nid": 15,
-    "Name": "Zooz Underdawg Tent",
-    "Motion": 0,
-    "Light": 0,
-    "Battery": 70,
-    "TempC": 27,
-    "RH": 12.38,
-    "Notes": "Temperature in range for veg!"
-  },
-  {
     "_id": "63edbc2a7b16b2e341a6fec9",
     "uuid": "210a60dc-2797-4623-a184-c56d4405b34f",
     "date": 1676524586730,
