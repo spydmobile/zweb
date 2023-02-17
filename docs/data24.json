@@ -1,31 +1,5 @@
 [
   {
-    "_id": "63eda44d7b16b2e341a6febd",
-    "uuid": "14d740de-6474-4ca9-992e-34c3ff650aa1",
-    "date": 1676518477450,
-    "nid": 4,
-    "Name": "ADC T4 (Spare)",
-    "Motion": null,
-    "Light": null,
-    "Battery": 80,
-    "TempC": 28.4,
-    "RH": null,
-    "Notes": "Temperature in range for comfort!"
-  },
-  {
-    "_id": "63eda4ca7b16b2e341a6febe",
-    "uuid": "524ab977-853c-4531-a156-d1844551977d",
-    "date": 1676518602122,
-    "nid": 4,
-    "Name": "ADC T4 (Spare)",
-    "Motion": null,
-    "Light": null,
-    "Battery": 80,
-    "TempC": 28.4,
-    "RH": null,
-    "Notes": "Temperature in range for comfort!"
-  },
-  {
     "_id": "63edabe47b16b2e341a6febf",
     "uuid": "51f56be5-0f56-4e6d-a044-3f6f05c56715",
     "date": 1676520420652,
