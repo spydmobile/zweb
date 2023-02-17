@@ -1,44 +1,5 @@
 [
   {
-    "_id": "63ee1a467b16b2e341a6ff6f",
-    "uuid": "e194c3d4-9910-4345-8382-8faefea88331",
-    "date": 1676548678245,
-    "nid": 16,
-    "Name": "Zooz WR Tent",
-    "Motion": 0,
-    "Light": 0,
-    "Battery": 100,
-    "TempC": 26,
-    "RH": 12.46,
-    "Notes": "Temperature in range for veg!"
-  },
-  {
-    "_id": "63ee1a467b16b2e341a6ff70",
-    "uuid": "03ca54dd-dc1a-441f-bbf9-f396092b4534",
-    "date": 1676548678263,
-    "nid": 16,
-    "Name": "Zooz WR Tent",
-    "Motion": 0,
-    "Light": 0,
-    "Battery": 100,
-    "TempC": 26,
-    "RH": 12.46,
-    "Notes": "Temperature in range for veg!"
-  },
-  {
-    "_id": "63ee1a467b16b2e341a6ff71",
-    "uuid": "c256b54b-4509-40e9-9554-fdc8c85bd2ce",
-    "date": 1676548678295,
-    "nid": 16,
-    "Name": "Zooz WR Tent",
-    "Motion": 0,
-    "Light": 0,
-    "Battery": 100,
-    "TempC": 26,
-    "RH": 12.46,
-    "Notes": "Temperature in range for veg!"
-  },
-  {
     "_id": "63ee1d9b7b16b2e341a6ff72",
     "uuid": "514934ef-5623-4e78-b678-2d89ba64cac4",
     "date": 1676549531856,
