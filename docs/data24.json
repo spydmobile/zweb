@@ -1,44 +1,5 @@
 [
   {
-    "_id": "63edcf7d7b16b2e341a6fee5",
-    "uuid": "19e06117-3d86-4ba1-be1a-e4fbf161cf12",
-    "date": 1676529533577,
-    "nid": 11,
-    "Name": "Gardent Tent",
-    "Motion": 0,
-    "Light": 0,
-    "Battery": 100,
-    "TempC": 28.7,
-    "RH": 30.3,
-    "Notes": "Temperature in range for veg!"
-  },
-  {
-    "_id": "63edcf7d7b16b2e341a6fee6",
-    "uuid": "8b86b23f-76eb-4253-a38a-5a8fb19eefe8",
-    "date": 1676529533595,
-    "nid": 11,
-    "Name": "Gardent Tent",
-    "Motion": 0,
-    "Light": 0,
-    "Battery": 100,
-    "TempC": 28.7,
-    "RH": 30.3,
-    "Notes": "Temperature in range for veg!"
-  },
-  {
-    "_id": "63edcf7d7b16b2e341a6fee7",
-    "uuid": "beadd874-9e8a-4f89-aecf-56a5a59f879e",
-    "date": 1676529533617,
-    "nid": 11,
-    "Name": "Gardent Tent",
-    "Motion": 0,
-    "Light": 0,
-    "Battery": 100,
-    "TempC": 28.7,
-    "RH": 30.3,
-    "Notes": "Temperature in range for veg!"
-  },
-  {
     "_id": "63edd1567b16b2e341a6fee8",
     "uuid": "4b41b4e0-6831-4ae6-b53b-374f1bc123e7",
     "date": 1676530006556,
