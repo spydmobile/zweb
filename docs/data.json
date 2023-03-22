@@ -1,17 +1,17 @@
 {
   "data": [
     {
-      "date": 1649334067750,
-      "_id": "624ed733982f92534f03ddaa",
-      "uuid": "97bb9c70-25bb-43b8-9f0a-c71559b63bfb",
-      "nid": 17,
-      "Name": "undefined",
-      "Motion": null,
-      "Light": null,
-      "Battery": null,
-      "TempC": null,
-      "RH": null,
-      "Notes": "Jasco Outdoor Switch (17) has no mapped properties."
+      "date": 1676555386571,
+      "_id": "63ee347a7b16b2e341a6ffa7",
+      "uuid": "14e0583c-e9fb-4856-b523-288f263165ee",
+      "nid": 11,
+      "Name": "Gardent Tent",
+      "Motion": 0,
+      "Light": 100,
+      "Battery": 100,
+      "TempC": 28.5,
+      "RH": 30.83,
+      "Notes": "Temperature in range for veg!"
     },
     {
       "date": 1670461304790,
@@ -27,19 +27,6 @@
       "Notes": "Warning: Temp Too Low for dry!"
     },
     {
-      "date": 1670297136577,
-      "_id": "638eb630ed6734750a6bb9b9",
-      "uuid": "6f56cf64-2573-400b-b3df-f97a0a4cbc09",
-      "nid": 9,
-      "Name": "Nursery Tent",
-      "Motion": 0,
-      "Light": 96.16,
-      "Battery": 0,
-      "TempC": 23.34,
-      "RH": 51.83,
-      "Notes": "Temperature in range for veg!"
-    },
-    {
       "date": 1676555641917,
       "_id": "63ee35797b16b2e341a6ffa8",
       "uuid": "e9f75ce1-c684-4da3-b12a-36ec99212f3f",
@@ -51,6 +38,19 @@
       "TempC": 44.3,
       "RH": null,
       "Notes": "Warning: Temp Too high for winter!"
+    },
+    {
+      "date": 1670297136577,
+      "_id": "638eb630ed6734750a6bb9b9",
+      "uuid": "6f56cf64-2573-400b-b3df-f97a0a4cbc09",
+      "nid": 9,
+      "Name": "Nursery Tent",
+      "Motion": 0,
+      "Light": 96.16,
+      "Battery": 0,
+      "TempC": 23.34,
+      "RH": 51.83,
+      "Notes": "Temperature in range for veg!"
     },
     {
       "date": 1676553885191,
@@ -77,6 +77,19 @@
       "TempC": 33.2,
       "RH": 26.5,
       "Notes": "Temperature in range for veg!"
+    },
+    {
+      "date": 1649334067750,
+      "_id": "624ed733982f92534f03ddaa",
+      "uuid": "97bb9c70-25bb-43b8-9f0a-c71559b63bfb",
+      "nid": 17,
+      "Name": "undefined",
+      "Motion": null,
+      "Light": null,
+      "Battery": null,
+      "TempC": null,
+      "RH": null,
+      "Notes": "Jasco Outdoor Switch (17) has no mapped properties."
     },
     {
       "date": 1676541252737,
@@ -155,20 +168,7 @@
       "TempC": 17.16,
       "RH": 5.76,
       "Notes": "Warning: Temp Too Low for dry!"
-    },
-    {
-      "date": 1676555386571,
-      "_id": "63ee347a7b16b2e341a6ffa7",
-      "uuid": "14e0583c-e9fb-4856-b523-288f263165ee",
-      "nid": 11,
-      "Name": "Gardent Tent",
-      "Motion": 0,
-      "Light": 100,
-      "Battery": 100,
-      "TempC": 28.5,
-      "RH": 30.83,
-      "Notes": "Temperature in range for veg!"
     }
   ],
-  "build": "3/22/2023, 3:33:25 AM"
+  "build": "3/22/2023, 3:43:26 AM"
 }
