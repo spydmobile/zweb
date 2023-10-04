@@ -1,6 +1,84 @@
 {
   "data": [
     {
+      "date": 1649334067750,
+      "_id": "624ed733982f92534f03ddaa",
+      "uuid": "97bb9c70-25bb-43b8-9f0a-c71559b63bfb",
+      "nid": 17,
+      "Name": "undefined",
+      "Motion": null,
+      "Light": null,
+      "Battery": null,
+      "TempC": null,
+      "RH": null,
+      "Notes": "Jasco Outdoor Switch (17) has no mapped properties."
+    },
+    {
+      "date": 1676555386571,
+      "_id": "63ee347a7b16b2e341a6ffa7",
+      "uuid": "14e0583c-e9fb-4856-b523-288f263165ee",
+      "nid": 11,
+      "Name": "Gardent Tent",
+      "Motion": 0,
+      "Light": 100,
+      "Battery": 100,
+      "TempC": 28.5,
+      "RH": 30.83,
+      "Notes": "Temperature in range for veg!"
+    },
+    {
+      "date": 1676553885191,
+      "_id": "63ee2e9d7b16b2e341a6ff96",
+      "uuid": "3249a31f-a9b7-4e5a-8b36-4f117e5f0a0b",
+      "nid": 4,
+      "Name": "ADC T4 (Spare)",
+      "Motion": null,
+      "Light": null,
+      "Battery": 80,
+      "TempC": 27.7,
+      "RH": null,
+      "Notes": "Temperature in range for comfort!"
+    },
+    {
+      "date": 1670297136577,
+      "_id": "638eb630ed6734750a6bb9b9",
+      "uuid": "6f56cf64-2573-400b-b3df-f97a0a4cbc09",
+      "nid": 9,
+      "Name": "Nursery Tent",
+      "Motion": 0,
+      "Light": 96.16,
+      "Battery": 0,
+      "TempC": 23.34,
+      "RH": 51.83,
+      "Notes": "Temperature in range for veg!"
+    },
+    {
+      "date": 1664637849777,
+      "_id": "63385b990c4ad31d1162c791",
+      "uuid": "da7d4dce-0589-4a8a-90f0-11b55fedf992",
+      "nid": 2,
+      "Name": "ADC T2 (Laundry Room)",
+      "Motion": null,
+      "Light": null,
+      "Battery": 80,
+      "TempC": 24.6,
+      "RH": null,
+      "Notes": "Warning: Temp Too Low for winter!"
+    },
+    {
+      "date": 1654644807369,
+      "_id": "629fe047f0f0a52a346493f8",
+      "uuid": "976dfccc-9ec8-4b07-8a1e-e1d69bf0a24c",
+      "nid": 18,
+      "Name": "neo#1",
+      "Motion": null,
+      "Light": null,
+      "Battery": 30,
+      "TempC": 33.2,
+      "RH": 26.5,
+      "Notes": "Temperature in range for veg!"
+    },
+    {
       "date": 1676549725347,
       "_id": "63ee1e5d7b16b2e341a6ff76",
       "uuid": "296800fe-3a6e-4344-bb18-fe55f90d17aa",
@@ -90,85 +168,7 @@
       "TempC": 27.5,
       "RH": 10,
       "Notes": "Temperature in range for comfort!"
-    },
-    {
-      "date": 1654644807369,
-      "_id": "629fe047f0f0a52a346493f8",
-      "uuid": "976dfccc-9ec8-4b07-8a1e-e1d69bf0a24c",
-      "nid": 18,
-      "Name": "neo#1",
-      "Motion": null,
-      "Light": null,
-      "Battery": 30,
-      "TempC": 33.2,
-      "RH": 26.5,
-      "Notes": "Temperature in range for veg!"
-    },
-    {
-      "date": 1649334067750,
-      "_id": "624ed733982f92534f03ddaa",
-      "uuid": "97bb9c70-25bb-43b8-9f0a-c71559b63bfb",
-      "nid": 17,
-      "Name": "undefined",
-      "Motion": null,
-      "Light": null,
-      "Battery": null,
-      "TempC": null,
-      "RH": null,
-      "Notes": "Jasco Outdoor Switch (17) has no mapped properties."
-    },
-    {
-      "date": 1676555386571,
-      "_id": "63ee347a7b16b2e341a6ffa7",
-      "uuid": "14e0583c-e9fb-4856-b523-288f263165ee",
-      "nid": 11,
-      "Name": "Gardent Tent",
-      "Motion": 0,
-      "Light": 100,
-      "Battery": 100,
-      "TempC": 28.5,
-      "RH": 30.83,
-      "Notes": "Temperature in range for veg!"
-    },
-    {
-      "date": 1676553885191,
-      "_id": "63ee2e9d7b16b2e341a6ff96",
-      "uuid": "3249a31f-a9b7-4e5a-8b36-4f117e5f0a0b",
-      "nid": 4,
-      "Name": "ADC T4 (Spare)",
-      "Motion": null,
-      "Light": null,
-      "Battery": 80,
-      "TempC": 27.7,
-      "RH": null,
-      "Notes": "Temperature in range for comfort!"
-    },
-    {
-      "date": 1670297136577,
-      "_id": "638eb630ed6734750a6bb9b9",
-      "uuid": "6f56cf64-2573-400b-b3df-f97a0a4cbc09",
-      "nid": 9,
-      "Name": "Nursery Tent",
-      "Motion": 0,
-      "Light": 96.16,
-      "Battery": 0,
-      "TempC": 23.34,
-      "RH": 51.83,
-      "Notes": "Temperature in range for veg!"
-    },
-    {
-      "date": 1664637849777,
-      "_id": "63385b990c4ad31d1162c791",
-      "uuid": "da7d4dce-0589-4a8a-90f0-11b55fedf992",
-      "nid": 2,
-      "Name": "ADC T2 (Laundry Room)",
-      "Motion": null,
-      "Light": null,
-      "Battery": 80,
-      "TempC": 24.6,
-      "RH": null,
-      "Notes": "Warning: Temp Too Low for winter!"
     }
   ],
-  "build": "10/4/2023, 4:04:27 PM"
+  "build": "10/4/2023, 4:16:06 PM"
 }
