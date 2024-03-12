@@ -1,19 +1,6 @@
 {
   "data": [
     {
-      "date": 1676555191879,
-      "_id": "63ee33b77b16b2e341a6ffa4",
-      "uuid": "2c33800a-3f98-4a98-ac5d-545d890ef1d3",
-      "nid": 5,
-      "Name": "Wood Thermostat",
-      "Motion": null,
-      "Light": null,
-      "Battery": 54,
-      "TempC": 27.5,
-      "RH": 10,
-      "Notes": "Temperature in range for comfort!"
-    },
-    {
       "date": 1676541252737,
       "_id": "63edfd447b16b2e341a6ff4b",
       "uuid": "900e1b84-7944-4fc1-b184-42af7f3e2d52",
@@ -24,6 +11,32 @@
       "Battery": 100,
       "TempC": 28.1,
       "RH": 7.37,
+      "Notes": "Temperature in range for comfort!"
+    },
+    {
+      "date": 1664637849777,
+      "_id": "63385b990c4ad31d1162c791",
+      "uuid": "da7d4dce-0589-4a8a-90f0-11b55fedf992",
+      "nid": 2,
+      "Name": "ADC T2 (Laundry Room)",
+      "Motion": null,
+      "Light": null,
+      "Battery": 80,
+      "TempC": 24.6,
+      "RH": null,
+      "Notes": "Warning: Temp Too Low for winter!"
+    },
+    {
+      "date": 1676555191879,
+      "_id": "63ee33b77b16b2e341a6ffa4",
+      "uuid": "2c33800a-3f98-4a98-ac5d-545d890ef1d3",
+      "nid": 5,
+      "Name": "Wood Thermostat",
+      "Motion": null,
+      "Light": null,
+      "Battery": 54,
+      "TempC": 27.5,
+      "RH": 10,
       "Notes": "Temperature in range for comfort!"
     },
     {
@@ -155,20 +168,7 @@
       "TempC": 27.1,
       "RH": 12.28,
       "Notes": "Temperature in range for veg!"
-    },
-    {
-      "date": 1664637849777,
-      "_id": "63385b990c4ad31d1162c791",
-      "uuid": "da7d4dce-0589-4a8a-90f0-11b55fedf992",
-      "nid": 2,
-      "Name": "ADC T2 (Laundry Room)",
-      "Motion": null,
-      "Light": null,
-      "Battery": 80,
-      "TempC": 24.6,
-      "RH": null,
-      "Notes": "Warning: Temp Too Low for winter!"
     }
   ],
-  "build": "3/11/2024, 9:43:13 PM"
+  "build": "3/11/2024, 9:53:09 PM"
 }
